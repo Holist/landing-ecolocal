@@ -1,0 +1,33 @@
+body {
+    height: 150vh;
+}
+
+.yellow-background {
+    background-color: #F9CF49;
+}
+
+.blue-background {
+    background-color: #E2F6FF;
+}
+
+.circuit-img {
+    width: 70vh;
+}
+
+.my-navbar {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-navbar-link, .my-navbar-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.white-space {
+    height: 0.5rem;
+    background-color: white;
+}
+
