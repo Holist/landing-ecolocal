@@ -1,71 +1,74 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .yellow-background {
-    background-color: #F9CF49;
+  background-color: #f9cf49;
 }
 
 .blue-background {
-    background-color: #E2F6FF;
+  background-color: #e2f6ff;
 }
 
 .circuit-img {
-    width: 70vh;
+  width: 70vh;
 }
 
 .my-navbar {
-    height: 8vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .my-footer {
-    background-color: #82D5D6;
-    height: 5vh;
+  background-color: #82d5d6;
+  height: 5vh;
 }
 
-.my-navbar-link, .my-navbar-link:hover {
-    color: white;
-    text-decoration: none;
+.my-navbar-link,
+.my-navbar-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .white-space {
-    height: 0.5rem;
-    background-color: white;
+  height: 0.5rem;
+  background-color: white;
 }
 
 .card-img {
-    position: absolute;
-    left: 27%;
-    top: -35%;
-    width: 150px;
+  position: absolute;
+  left: 27%;
+  top: -35%;
+  width: 150px;
 }
 
 .mt-9 {
-    margin-top: 9rem!important;
+  margin-top: 9rem !important;
 }
 
-.invert { filter: invert(44%); }
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.invert {
+  filter: invert(44%);
 }
 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 @media only screen and (max-width: 600px) {
-    .card-img {
-        top: -40% !important;
-    }
+  .card-img {
+    top: -40% !important;
+  }
 }
