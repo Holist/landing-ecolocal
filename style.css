@@ -2,6 +2,10 @@ body {
     height: 150vh;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .yellow-background {
     background-color: #F9CF49;
 }
@@ -21,6 +25,11 @@ body {
     align-items: center;
 }
 
+.my-footer {
+    background-color: #82D5D6;
+    height: 5vh;
+}
+
 .my-navbar-link, .my-navbar-link:hover {
     color: white;
     text-decoration: none;
@@ -31,3 +40,21 @@ body {
     background-color: white;
 }
 
+.card-img {
+    position: absolute;
+    left: 27%;
+    top: -35%;
+    width: 150px;
+}
+
+.mt-9 {
+    margin-top: 9rem!important;
+}
+
+.invert { filter: invert(44%); }
+
+@media only screen and (max-width: 600px) {
+    .card-img {
+        top: -40% !important;
+    }
+}
