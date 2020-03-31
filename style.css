@@ -3,7 +3,7 @@ html {
 }
 
 .yellow-background {
-  background-color: #f9cf49;
+  background-color: #ECE2D2;
 }
 
 .blue-background {
@@ -31,8 +31,6 @@ html {
   color: rgba(0,0,0,0.5);
 }
 
-.footer {
-}
 .footer-links {
   display: flex;
   align-items: center;
@@ -53,7 +51,7 @@ html {
 
 .my-navbar-link,
 .my-navbar-link:hover {
-  color: white;
+  color: #1655AF;
   text-decoration: none;
 }
 
